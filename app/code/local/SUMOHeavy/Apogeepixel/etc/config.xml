@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * SUMOHeavy_Apogeepixel
+ *
+ * @category   SUMOHeavy
+ * @package    SUMOHeavy_Apogeepixel
+ * @copyright  Copyright (c) 2015 Blades (http://www.blades.com)
+ * @author     Abu Wahid <support@sumoheavy.com>
+ */
+-->
+<config>
+    <modules>
+        <SUMOHeavy_Apogeepixel>
+            <version>0.0.1</version>
+        </SUMOHeavy_Apogeepixel>
+    </modules>
+    <global>
+        <helpers>
+            <sumoheavy_apogeepixel>
+                <class>SUMOHeavy_Apogeepixel_Helper</class>
+            </sumoheavy_apogeepixel>
+        </helpers>
+    </global>
+</config>

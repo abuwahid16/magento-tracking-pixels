@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SUMOHeavy_Apogeepixel>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SUMOHeavy_Apogeepixel>
+    </modules>
+</config>

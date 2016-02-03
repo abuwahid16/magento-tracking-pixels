@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * SUMOHeavy_Apogeepixel
+ *
+ * @category   SUMOHeavy
+ * @package    SUMOHeavy_Apogeepixel
+ * @copyright  Copyright (c) 2015 Blades (http://www.blades.com)
+ * @author     Szymon Wlodarski <support@sumoheavy.com>
+ */
+-->
+<layout version="0.1.0">
+    <!--ApogeePixel for Homepage -->
+    <cms_index_index>
+        <reference name="after_body_start">
+            <block type="sumoheavy_apogeepixel/homepage" before="-" name="apogeepixel.pixel.homepage" template="sumoheavy/apogeepixel/homepage.phtml" />
+        </reference>
+    </cms_index_index>
+
+    <!--ApogeePixel for Login page -->
+    <customer_account_login>
+        <reference name="after_body_start">
+            <block type="sumoheavy_apogeepixel/customer_account_login" before="-" name="apogeepixel.pixel.customer.sccount.login" template="sumoheavy/apogeepixel/customer/account/login.phtml" />
+        </reference>
+    </customer_account_login>
+
+    <!--ApogeePixel for Checkout cart page -->
+    <checkout_cart_index>
+        <reference name="after_body_start">
+            <block type="sumoheavy_apogeepixel/checkout_cart" before="-" name="apogeepixel.pixel.checkout.cart" template="sumoheavy/apogeepixel/checkout/cart.phtml" />
+        </reference>
+    </checkout_cart_index>
+
+    <!--ApogeePixel for Checkout Success page -->
+    <checkout_onepage_success>
+        <reference name="after_body_start">
+            <block type="sumoheavy_apogeepixel/checkout_onepage_success" before="-" name="apogeepixel.pixel.checkout.onepage.success" template="sumoheavy/apogeepixel/checkout/onepage/success.phtml" />
+        </reference>
+    </checkout_onepage_success>
+
+    <catalog_product_view>
+        <reference name="after_body_start">
+            <block type="sumoheavy_apogeepixel/catalog_product_view" before="-" name="apogeepixel.pixel.catalog.product.view" template="sumoheavy/apogeepixel/catalog/product/view.phtml" />
+        </reference>
+    </catalog_product_view>
+</layout>

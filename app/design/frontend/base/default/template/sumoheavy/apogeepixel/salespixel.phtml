@@ -1,0 +1,18 @@
+<?php
+/**
+ * SUMOHeavy Apogeepixel
+ *
+ * @category   SUMOHeavy
+ * @package    SUMOHeavy_Apogeepixel
+ * @copyright  Copyright (c) Blades (http://www.blades.com)
+ * @author     Abu Wahid <support@sumoheavy.com>
+ *
+ */
+?>
+
+<?php
+    $apogeeHelper = Mage::helper('sumoheavy_apogeepixel');
+    foreach($apogeeHelper->getCheckoutOrder()->getAllItems() as $_item):
+        echo $apogeeHelper->getFormattedPixel(SUMOHeavy_Apogeepixel_Helper_Data::SALES_CONFIG_KEY, $_item, array('orderId' => $this->getOrderId()));
+    endforeach;
+?>
